@@ -1,0 +1,18 @@
+<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Name>Python Addin</Name><AddInID>{5ab2a210-816f-4817-9b20-ae9857070ed7}</AddInID><Description>&#26629;&#26684;&#22320;&#24418;&#20998;&#22359;&#22788;&#29702;&#24037;&#20855;</Description><Version>0.1</Version><Image>Images\icon.png</Image><Author>Chaoying</Author><Company>Tongji University</Company><Date>06/11/2022</Date><Targets><Target name="Desktop" version="10.1" /></Targets><AddIn language="PYTHON" library="MyAddin_addin.py" namespace="MyAddin_addin"><ArcMap>
+    <Commands>
+        <Button caption="&#21152;&#36733;&#25968;&#25454;" category="Python Addin" class="LoadBt" id="MyAddin_addin.button" image="Images\load.png" message="" tip="&#21152;&#36733;DEM&#25968;&#25454;"><Help heading="" /></Button>
+        <ComboBox caption="&#20998;&#22359;&#34892;&#25968;" category="Python Addin" class="RowComboBox" id="MyAddin_addin.combobox" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip="&#26629;&#26684;&#20998;&#22359;&#34892;&#25968;"><Help heading="" /></ComboBox>
+        <ComboBox caption="&#20998;&#22359;&#21015;&#25968;" category="Python Addin" class="ColComboBox" id="MyAddin_addin.combobox_1" itemSizeString="WWWWWW" message="" rows="4" sizeString="WWWWWW" tip="&#26629;&#26684;&#20998;&#22359;&#21015;&#25968;"><Help heading="" /></ComboBox>
+        <Button caption="&#20998;&#22359;" category="Python Addin" class="BlockBt" id="MyAddin_addin.button_1" image="Images\block.png" message="" tip="&#25191;&#34892;&#20998;&#22359;"><Help heading="" /></Button>
+        <Button caption="&#22369;&#21521;&#35745;&#31639;" category="Python Addin" class="AspectBt" id="MyAddin_addin.button_2" image="Images\aspect.png" message="" tip="&#20998;&#22359;&#22369;&#21521;&#35745;&#31639;&#24182;&#21512;&#24182;&#35745;&#31639;&#32467;&#26524;"><Help heading="" /></Button>
+        <Button caption="&#37325;&#20998;&#31867;" category="Python Addin" class="ClassifyBt" id="MyAddin_addin.button_3" image="Images\classify.png" message="" tip="&#23545;&#22369;&#21521;&#25968;&#25454;&#37325;&#20998;&#31867;"><Help heading="" /></Button>
+        <Button caption="&#20986;&#22270;" category="Python Addin" class="ExportBt" id="MyAddin_addin.button_4" image="Images\export.png" message="" tip="&#25353;&#29031;&#39044;&#23450;&#20041;&#30340;&#21046;&#22270;&#27169;&#26495;&#23548;&#20986;&#22320;&#22270;"><Help heading="" /></Button>
+        </Commands>
+    <Extensions>
+        </Extensions>
+    <Toolbars>
+        <Toolbar caption="&#26629;&#26684;&#22320;&#24418;&#20998;&#22359;&#22788;&#29702;" category="Python Addin" id="MyAddin_addin.toolbar" showInitially="true"><Items><Button refID="MyAddin_addin.button" /><ComboBox refID="MyAddin_addin.combobox" /><ComboBox refID="MyAddin_addin.combobox_1" /><Button refID="MyAddin_addin.button_1" /><Button refID="MyAddin_addin.button_2" /><Button refID="MyAddin_addin.button_3" /><Button refID="MyAddin_addin.button_4" /></Items></Toolbar>
+        </Toolbars>
+    <Menus>
+        </Menus>
+    </ArcMap></AddIn></ESRI.Configuration>
